@@ -1,0 +1,21 @@
+{
+  "name": "nomoa",
+  "version": "1.0.0",
+  "description": "A project represents simple library with components and reactivity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maderarasto/nomoa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maderarasto/nomoa/issues"
+  },
+  "homepage": "https://github.com/maderarasto/nomoa#readme"
+}
