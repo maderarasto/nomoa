@@ -17,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/maderarasto/nomoa/issues"
   },
-  "homepage": "https://github.com/maderarasto/nomoa#readme"
+  "homepage": "https://github.com/maderarasto/nomoa#readme",
+  "types": "./src/index.d.ts"
 }
