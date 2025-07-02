@@ -2,9 +2,11 @@
   "name": "nomoa",
   "version": "1.0.0",
   "description": "A project represents simple library with components and reactivity.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -13,10 +15,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/maderarasto/nomoa/issues"
   },
   "homepage": "https://github.com/maderarasto/nomoa#readme",
-  "types": "./src/index.d.ts"
+  "types": "./src/index.d.ts",
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "babel-plugin-transform-jsx": "^2.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
 }
