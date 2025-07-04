@@ -1,9 +1,7 @@
-import {createApp} from "./lib/nomoa.js";
-
-const a = (<div>Hello</div>);
-console.log(a);
+import App from "./app/App";
+import {createApp} from "./lib/nomoa";
 
 createApp({
   rootEl: '#app',
-  render: () => <div>Hello</div>
+  render: () => <App />
 });
